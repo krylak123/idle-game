@@ -42,7 +42,8 @@ testem.log
 Thumbs.db
 
 # Environments
-environments/*
+src/environments/*
+!src/environments/.gitkeep
 .env
 
 # Fake DATABASE
