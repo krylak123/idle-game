@@ -42,6 +42,7 @@ testem.log
 Thumbs.db
 
 # Environments
+environments/*
 .env
 
 # Fake DATABASE
