@@ -48,3 +48,8 @@ src/environments/*
 
 # Fake DATABASE
 db/*
+!db/.gitkeep
+!db/snapshots
+
+db/snapshots/*
+!db/snapshots/.gitkeep
