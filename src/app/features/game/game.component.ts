@@ -1,16 +1,17 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-game',
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class GameComponent implements OnInit {
+export class GameComponent {
+  public isBonus = false;
+  public imgDefault = 'assets/click_default.jpeg';
+  public imgBonus = 'assets/click_bonus.png';
 
-  constructor() { }
-
-  ngOnInit(): void {
+  public onBtnClick() {
+    console.log('claim cash');
   }
-
 }
