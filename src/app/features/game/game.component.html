@@ -1,5 +1,6 @@
 <section class="game">
   <button (click)="onBtnClick()"  [class.game__btn--bonus]="isBonus" type="button" class="game__btn">
-    <img [src]="isBonus ? imgBonus : imgDefault" alt="click the button" class="game__btn-img">
+    <!-- <img [src]="isBonus ? imgBonus : imgDefault" alt="click the button" class="game__btn-img"> -->
+    <img [src]="imgNull" alt="click the button" class="game__btn-img">
   </button>
 </section>

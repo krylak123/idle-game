@@ -8,8 +8,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class GameComponent {
   public isBonus = false;
-  public imgDefault = 'assets/click_default.jpeg';
-  public imgBonus = 'assets/click_bonus.png';
+  // public imgDefault = 'assets/click_default.jpeg';
+  // public imgBonus = 'assets/click_bonus.png';
+  public imgNull = 'assets/click_null.webp';
 
   public onBtnClick() {
     console.log('claim cash');
